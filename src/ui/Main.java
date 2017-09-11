@@ -52,7 +52,7 @@ public class Main extends Application {
         TextField depthTextField = new TextField();
         grid.add(depthTextField, 1, 3);
 
-
+        Label dedpth = new Label("ddth:");
 
         Scene scene = new Scene(grid, 500, 400);
         primaryStage.setScene(scene);
